@@ -1,0 +1,46 @@
+Gráficos
+Existem diversos tipos de gráficos disponíveis no Microsoft Excel. Alguns exemplos são:
+
+•	Gráfico de colunas: este tipo de gráfico é usado para comparar valores em diferentes categorias. Ele é útil para mostrar mudanças ao longo do tempo ou para comparar diferentes grupos. Para inserir um gráfico de colunas, selecione os dados que você deseja representar graficamente, clique na guia "Inserir" na faixa de opções e escolha o tipo de gráfico de colunas que deseja criar.
+
+•	Gráfico de barras: semelhante ao gráfico de colunas, o gráfico de barras é usado para comparar valores em diferentes categorias. No entanto, ele é mais adequado para mostrar uma grande quantidade de dados, pois as barras podem ser mais estreitas. Para inserir um gráfico de barras, selecione os dados que você deseja representar graficamente, clique na guia "Inserir" na faixa de opções e escolha o tipo de gráfico de barras que deseja criar.
+
+•	Gráfico de linhas: este tipo de gráfico é usado para mostrar mudanças ao longo do tempo ou para traçar um conjunto de dados contínuos. Para inserir um gráfico de linhas, selecione os dados que você deseja representar graficamente, clique na guia "Inserir" na faixa de opções e escolha o tipo de gráfico de linhas que deseja criar.
+
+•	Gráfico de pizza: este tipo de gráfico é usado para mostrar a proporção de diferentes partes em um todo. Para inserir um gráfico de pizza, selecione os dados que você deseja representar graficamente, clique na guia "Inserir" na faixa de opções e escolha o tipo de gráfico de pizza que deseja criar.
+
+•	Gráfico de dispersão: este tipo de gráfico é usado para mostrar a relação entre duas variáveis. Para inserir um gráfico de dispersão, selecione os dados que você deseja representar graficamente, clique na guia "Inserir" na faixa de opções e escolha o tipo de gráfico de dispersão que deseja criar.
+
+Para criar qualquer um desses gráficos, é necessário ter os dados organizados corretamente em uma planilha do Excel. Depois de selecionar os dados, basta ir à guia "Inserir" e escolher o tipo de gráfico desejado. O Excel também oferece opções de personalização para cada tipo de gráfico, permitindo que você ajuste a aparência e o layout do gráfico de acordo com suas necessidades.
+ 
+PROCV, PROCH e PROCX
+As funções PROCV e PROCX são ambas funções de busca em tabelas do Microsoft Excel, mas com algumas diferenças importantes.
+
+A função PROCV é usada para procurar valores em uma coluna de uma tabela e retornar um valor correspondente em outra coluna. A sintaxe da função PROCV é a seguinte:
+
+=PROCV( valor_procurado; matriz_tabela; núm_índice_coluna; [procura_intervalo] )
+Valor_procurado: é o valor que você deseja procurar.
+Matriz_Tabela: é a tabela que contém os dados.
+Núm_índice_coluna: é o número da coluna em que o valor correspondente será encontrado.
+Procura_Intervalo: é um valor opcional que especifica se a função deve procurar uma correspondência exata ou aproximada. Se o valor for Verdadeiro (ou omitido), a função procurará uma correspondência aproximada. Se o valor for Falso, a função procurará uma correspondência exata.
+Já a função PROCX, introduzida na versão mais recente do Excel, é uma função semelhante à PROCV, mas que permite procurar valores em tabelas em várias colunas e retornar valores de outras colunas correspondentes. A sintaxe da função PROCX é a seguinte:
+
+=PROCX( pesquisa_valor; pesquisa_matriz; matriz_retorno; [Opções] )
+Pesquisa_valor: é o valor que você deseja procurar.
+Pesquisa_matriz: é a tabela que contém os dados.
+Matriz_retorno: é o número da linha em que o valor correspondente será encontrado.
+Opções: é um valor opcional que especifica se a função deve procurar uma correspondência exata ou aproximada, e se a tabela de dados contém cabeçalhos de coluna. As opções disponíveis incluem "exato", "aproximado", "com cabeçalhos" e "sem cabeçalhos".
+A principal diferença entre a PROCV e a PROCX é que a PROCV procura em uma única coluna e retorna um valor correspondente em outra coluna, enquanto a PROCX pode procurar em várias colunas e retornar valores correspondentes de outras colunas. A PROCX também tem mais opções para personalizar a pesquisa e pode ser mais versátil em alguns casos.
+ 
+TABELA DINÂMICA
+Tabela dinâmica (ou pivot table, em inglês) é uma ferramenta do Microsoft Excel que permite analisar e resumir grandes conjuntos de dados de uma forma rápida e fácil. Com uma tabela dinâmica, você pode resumir dados em categorias, calcular valores agregados, filtrar, classificar e visualizar os dados em diferentes formatos, sem a necessidade de escrever fórmulas ou macros complexas.
+
+Para criar uma tabela dinâmica, você deve seguir os seguintes passos:
+•	Selecione o conjunto de dados que deseja analisar.
+•	Clique em "Inserir" na faixa de opções do Excel e selecione "Tabela Dinâmica".
+•	Na caixa de diálogo "Criar Tabela Dinâmica", selecione a faixa de células que contém os dados que deseja analisar e especifique o local onde deseja que a tabela dinâmica seja inserida.
+•	Na tabela dinâmica, arraste os campos que deseja analisar para as áreas de "Rótulos de Linha", "Rótulos de Coluna", "Valores" e "Filtros de Relatório" conforme necessário.
+•	Personalize a tabela dinâmica conforme necessário, como a ordem de classificação, formato de número e estilo.
+Com a tabela dinâmica criada, você pode facilmente ver resumos de seus dados, incluindo totais, médias, contagens e outras estatísticas. Você pode até mesmo filtrar e classificar seus dados em tempo real, permitindo que você encontre informações específicas em segundos.
+
+Em resumo, a tabela dinâmica é uma ferramenta poderosa e flexível para analisar e resumir grandes conjuntos de dados, permitindo que você crie relatórios e insights de maneira rápida e fácil, sem a necessidade de conhecimentos avançados de fórmulas ou macros.
